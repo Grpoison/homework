@@ -1,0 +1,276 @@
+
+body{
+	height: 100%;
+	font-family: "XinGothic-ZhangYue W6";
+	background-attachment:fixed;
+	background-size: auto,cover;
+	background-image: linear-gradient(to top, rgba(46,49, 65, 0.8), rgba(46, 49, 65, 0.8)),url(../bg.jpg);
+}
+div{
+	margin:0;
+	padding: 0;
+}
+form{
+	margin:0;
+	padding: 0;
+	border: 0px;
+}
+a{
+	text-decoration: none;
+}
+.width{
+	width: 1190px;
+	margin: auto;
+}
+.title{
+	display:inline-block;
+}
+.smalltitle{
+	display:inline-block;
+	margin-left: 30px;
+	margin-top:50px;
+	vertical-align: top;
+	font-size: 25px;
+}
+.title h2{
+	font-family: "Hakku";
+	font-size: 90px;
+	color: #8fbf00;
+	margin-top:0;
+	margin-bottom: 0;
+	margin-left: 100px;
+}
+.smalltitle p{
+	margin:0;
+	color: #fff;
+}
+.top{
+	width: auto;
+	height: 90px;
+	padding-bottom: 10px;
+}
+.search{
+	position: absolute;
+	display: inline-block;
+	width: 270px;
+	height: 30px;
+	border: 1px solid #c3c3c3;
+	margin-top:30px;
+	margin-left: 250px;
+}
+.inp{
+	display: block;
+	height: 30px;
+	overflow: hidden;
+}
+
+.top .search .inp input{
+	width: 270px;
+	font-size: 13px;
+	height:20px;
+	padding: 5px;
+}
+.top .search .bn{
+	position: absolute;
+	right: 0;
+	top:0;
+	width: 30px;
+	overflow: hidden;
+	/*cursor: pointer;*/
+	background: url(../bn.png) 50% 50% no-repeat;
+}
+.top .search .bn input{
+	width: 30px;
+	height:30px;
+	background: transparent;
+	cursor: pointer;
+	font-size:0;/*不加这个，搜索图标处会显示提交二字*/
+	color:transparent;
+	/*verflow: hidden;
+	
+	*/
+}
+input{
+	outline: none;
+	border: none;
+}
+.main{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+}
+.dh{
+	width: 960px;
+	height: 40px;
+	background-color: #2E3141;
+}
+ul{
+	margin:0px;
+	list-style-type: none;
+	padding: 0px;
+}
+.dh li{
+	display:inline-block;
+	float: left;
+	width: 96px;
+	font-size: 12px;
+	color: #fff;
+	line-height: 40px;
+	text-align: center;
+}
+.dh li a{
+	display:block;
+	width:96px;
+	height:40px;
+	color:#fff;
+}
+.dh li a:hover{
+	background:#83ae00;
+	font-weight:bold;
+	font-size:14px;
+}
+.ft{
+	display:inline-block;
+	width: 640px;
+	height: 355px;
+	margin:10px;
+	overflow: hidden;
+}
+p{
+	margin:0;
+}
+.ft p{
+	font-size: 15px;
+	line-height: 35px;
+	color: #fff;
+	width: 80px;
+	background: #8fbf00;
+	text-align: center;
+	margin-bottom: 5px;
+}
+.ft ul{
+	background-color: rgba(46,49,65,0.6);
+}
+.ft li{
+	line-height: 30px;
+	font-size: 15px;
+	border-bottom: 1px dashed #e8e8e8;
+}
+.white{
+	color: #fff;
+}
+a.white:hover{
+	color: #83ae00;
+	font-weight: bold;
+}
+.music_player{
+	display:inline-block;
+	margin:10px;
+	width: 275px;
+	height: 355px
+}
+.fg{
+	border-top: 2px dashed gainsboro;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.zx{
+	display: inline-block;
+	width: 700px;
+	height: 645px;
+}
+.zxk{
+	float: left;
+	width: 338px;
+	border-top: 2px solid #8fbf00;
+	border-bottom: 1px solid #8fbf00;
+	border-left: 1px solid #8fbf00;
+	border-right: 1px solid #8fbf00;
+	margin-right: 10px;
+	margin-bottom: 15px;
+	background-color: rgba(46,49,65,0.6);
+}
+.zxk p{
+	width: 70px;
+	height: 24px;
+	background: #8fbf00;
+	line-height: 24px;
+	color: #fff;
+	text-align: center;
+	font-size: 12px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+.zxk li{
+	font-size: 12px;
+	color: #333;
+	line-height: 28px;
+	text-indent: 10px;
+}
+
+.zxk li a{
+	padding-left: 15px;
+	background: url(../列表图标.gif) 0 -11px no-repeat;
+}
+.zxk li a:hover{
+	background: url(../列表图标.gif) 0 3px no-repeat;
+}
+.right{
+	display: inline-block;
+	vertical-align: top;
+	width: 255px;
+	height: 645px;
+}
+.ph{
+	border:2px solid #8fbf00;
+	background-color: rgba(46,49,65,0.6);
+}
+.ph p{
+	width: 255px;
+	height:24px;
+	margin-bottom: 5px;
+}
+.ph p a{
+	float: left;
+	width: 70px;
+	height: 24px;
+	background: #8fbf00;
+	color: #fff;
+	text-align: center;
+	line-height: 24px;
+	font-size: 12px;
+}
+.ph ul li{
+	margin-bottom: 3px;
+}
+span.phxz{
+	display: inline-block;
+	width: 18px;
+	height: 20px;
+	text-align: center;
+	background:#8fbf00;
+	color: #2E3141;
+}
+section.last{
+	border-top: 1px solid darkgray;
+}
+.bottom{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+@font-face {
+font-family: 'Hakku'; 
+src:
+url('../font/白舟·白雨.ttf');
+} 
+@font-face {
+font-family: 'XinGothic-ZhangYue W6'; 
+src:
+url('../font/信黑体 W6.ttf');
+} 

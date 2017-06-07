@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>调查问卷</title>
+</head>
+<body>
+<h1>这是一个调查问卷</h1>
+<form action="action_page.php">
+<fieldset>
+  你的名字：<input type="text" name="你的名字"><br>
+  你的年龄：<input type="text" name="你的年龄">
+</fieldset>
+<fieldset>
+  你的性别：<br>
+           <input type="radio" name="你的性别" value="男">男<br>
+           <input type="radio" name="你的性别" value="女">女
+</fieldset>
+<fieldset>
+  喜欢的运动：<br>
+           <input type="checkbox" name="vehicle" value="球类">球类<br>
+           <input type="checkbox" name="vehicle" value="游泳">游泳<br>
+           <input type="checkbox" name="vehicle" value="跑步">跑步<br>
+           <input type="checkbox" name="vehicle" value="其他">其他<br>
+</fieldset>
+<fieldset>
+  你的专业：
+  <select name="专业">
+            <option value="计算机科学与技术">计算机科学与技术</option>
+            <option value="软件工程">软件工程</option>
+            <option value="其他">其他</option>
+  </select>       
+</fieldset>
+</fieldset>
+<fieldset>
+  你加入的社团：
+  <select name="社团" multiple>
+            <option value="学生会">学生会</option>
+            <option value="科技类社团">科技类社团</option>
+            <option value="运动类社团">运动类社团</option>
+            <option value="志愿类社团">志愿类社团</option>
+            <option value="情感类社团">情感类社团</option>
+            <option value="学习类社团">学习类社团</option>
+            <option value="艺术类社团">艺术类社团</option>
+            <option value="口才类社团">口才类社团</option>
+            <option value="其他">其他</option>
+  </select>       
+  <p>若要实现多选，按住Ctrl，点击选项。</p>
+</fieldset>
+
+<fieldset>
+意见与建议：
+<textarea rows="10" cols="30">
+</textarea>
+</fieldset>
+<input type="button" value="提交">
+</form>
+</body>
+</html>
